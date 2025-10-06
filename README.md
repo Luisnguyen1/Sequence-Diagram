@@ -1,3 +1,5 @@
+# Sequence Diagram - Nghiệp vụ Chấm công (Attendance)
+
 ```mermaid
 sequenceDiagram
     actor Employee as Nhân viên
