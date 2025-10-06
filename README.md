@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     actor Employee as Nhân viên
     participant UI as Dashboard/UI
@@ -56,3 +57,4 @@ sequenceDiagram
     Manager->>AttendanceSummary: action_approve()
     AttendanceSummary->>AttendanceSummary: mv_state = 'approved'
     AttendanceSummary->>AttendanceSummary: mv_gen_payslip_done = True
+```
